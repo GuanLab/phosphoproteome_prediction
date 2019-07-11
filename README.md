@@ -28,12 +28,9 @@ pip install -U scikit-learn
 ```
 ## Dataset
 
-All the omic data are 2D matrices, where columns are cancer samples and rows are genes/proteins/phosphorylation sites. The CNV and RNA-seq data originally came from [TCGA](https://gdac.broadinstitute.org/). The proteomic and phosphoproteomic data originally came from [CPTAC](https://cptac-data-portal.georgetown.edu/cptacPublic).
+All the omic data are 2D matrices, where columns are cancer samples and rows are genes/proteins/phosphorylation sites. The CNV and RNA-seq data originally came from [TCGA](https://gdac.broadinstitute.org/). The proteomic and phosphoproteomic data originally came from [CPTAC-breast](https://cptac-data-portal.georgetown.edu/cptac/s/S015) and [CPTAC-ovary](https://cptac-data-portal.georgetown.edu/cptac/s/S020).
 
-We directly downloaded the data from the challenge website and more details can be found at:
-https://www.synapse.org/#!Synapse:syn8228304/wiki/448372
-
-To run the code, download the following omic data from [here](https://www.synapse.org/#!Synapse:syn8228304/files/) and put them into the directory data/raw/
+We originally downloaded the data from the challenge [website](https://www.synapse.org/#!Synapse:syn8228304/files/). Unfortunatelly, this download is no longer available for unregistered users. We therefore provided examples of dummy data in the directory data/raw/. 
 * retrospective_breast_CNA_sort_common_gene_16884.txt
 * retrospective_breast_phospho_sort_common_gene_31981.txt
 * retrospective_breast_proteome_sort_common_gene_10005.txt
