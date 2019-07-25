@@ -28,9 +28,11 @@ pip install -U scikit-learn
 ```
 ## Dataset
 
-All the omic data are 2D matrices, where columns are cancer samples and rows are genes/proteins/phosphorylation sites. The CNV and RNA-seq data originally came from [TCGA](https://gdac.broadinstitute.org/). The proteomic and phosphoproteomic data originally came from [CPTAC-breast](https://cptac-data-portal.georgetown.edu/cptac/s/S015) and [CPTAC-ovary](https://cptac-data-portal.georgetown.edu/cptac/s/S020).
+All the omic data are 2D matrices, where columns are cancer samples and rows are genes/proteins/phosphorylation sites. 
+The proteomic and phosphoproteomic data originally came from [CPTAC-breast](https://cptac-data-portal.georgetown.edu/cptac/s/S015) and [CPTAC-ovary](https://cptac-data-portal.georgetown.edu/cptac/s/S020).
+The genomic data originally came from [TCGA-breast](https://portal.gdc.cancer.gov/legacy-archive/search/f?filters=%7B%22op%22:%22and%22,%22content%22:%5B%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22cases.project.program.name%22,%22value%22:%5B%22TCGA%22%5D%7D%7D,%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22cases.project.project_id%22,%22value%22:%5B%22TCGA-BRCA%22%5D%7D%7D%5D%7D) and [TCGA-ovary](https://portal.gdc.cancer.gov/legacy-archive/search/f?filters=%7B%22op%22:%22and%22,%22content%22:%5B%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22cases.project.program.name%22,%22value%22:%5B%22TCGA%22%5D%7D%7D,%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22cases.project.project_id%22,%22value%22:%5B%22TCGA-OV%22%5D%7D%7D%5D%7D). 
 
-We originally downloaded the data from the challenge [website](https://www.synapse.org/#!Synapse:syn8228304/files/). Unfortunatelly, this download is no longer available for unregistered users. We therefore provided examples of dummy data in the directory data/raw/. 
+During the challenge, we directly downloaded these data from the challenge [website](https://www.synapse.org/#!Synapse:syn8228304/files/). Unfortunatelly, this download link s no longer available for unregistered users. We therefore provided examples of dummy data in the directory data/raw/. 
 * retrospective_breast_CNA_sort_common_gene_16884.txt
 * retrospective_breast_phospho_sort_common_gene_31981.txt
 * retrospective_breast_proteome_sort_common_gene_10005.txt
